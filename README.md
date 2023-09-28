@@ -28,12 +28,12 @@ To run this application locally, follow these steps:
 
 3. Install the project dependencies using npm 
 
-    `npm install`
+    ```npm install```
     
 
 4. Start the development server:
 
-`npm start`
+    ```npm start```
 
 
 5. Open your web browser and access the application at localhost port.
