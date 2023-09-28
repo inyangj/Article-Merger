@@ -115,11 +115,18 @@ const Merger = () => {
         ) : (
           <div className="border border-solid border-[#1B1B1B] rounded-md min-h-[294px]">
             <div className="px-[50px] py-[80px]">
-              <img src="/convo.png" alt="convo" className="mx-auto" />
+            {loading ? (
+                <img src="/load.gif" alt="icon"  className="mx-auto w-1/2" />
+            ) : (
+                <>
+                <img src="/Convo.png" alt="convo" className="mx-auto" />
               <h1 className="text-center">No Article Generated</h1>
               <p className="text-center">
                 Use the input below to get your result
               </p>
+                </>
+            )}
+              
             </div>
           </div>
         )}
